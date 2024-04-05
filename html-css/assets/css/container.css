@@ -1,0 +1,436 @@
+.container {
+    padding-top: 50px;
+    width: 70%;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.table .title {
+    padding: 20px 0;
+}
+
+.table .title span {
+    color: #00bcd4;
+}
+
+.table table {
+    width: 100%;
+    justify-content: center;
+    border-collapse: collapse;
+    text-align: left;
+    border: 1px solid #dddddd;
+
+}
+
+.table tr:nth-child(odd) {
+    background-color: #f0f3f2;
+}
+
+.table th {
+    background-color: #b6c6c9;
+    color: var(--color-white);
+}
+
+td,
+th {
+    text-align: left;
+    padding: 20px;
+}
+
+.table td:nth-child(1) {
+    text-align: center;
+    color: #f44336;
+    cursor: pointer;
+}
+
+.table td:nth-child(2) {
+    color: #00bcd4;
+    display: flex;
+    align-items: center;
+}
+
+.table td:nth-child(2) span {
+    color: #99a9b5;
+    padding-left: 10px;
+}
+
+.btn-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #dddddd;
+    padding: 15px 20px;
+    width: 100%;
+
+}
+
+.btn-bottom button {
+    border-radius: 5px;
+    padding: 15px 20px;
+}
+
+.btn-bottom .left {
+    width: 50%;
+}
+
+.btn-bottom .left input {
+    padding: 17px 20px;
+    width: 50%;
+    background-color: #f5f7f6;
+    border: none;
+    margin-right: 20px;
+    border: var(--style-border);
+    border-radius: 3px;
+}
+
+.btn-bottom .left button {
+    border: 3px solid #00bcd4;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.btn-bottom .right button {
+    font-weight: bold;
+    color: var(--color-white);
+    background-color: var(--color-price);
+    margin-left: 20px;
+}
+
+.btn-bottom .right button:last-child {
+    background-color: #393d50;
+}
+
+.btn-bottom .right i {
+    padding-right: 5px;
+}
+
+
+.table tr:last-child {}
+
+.table img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.table .quantity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dfe5e8;
+    border: 2px solid #dfe5e8;
+    max-width: 120px;
+}
+
+.table .quantity button {
+    padding: 10px 15px;
+    background-color: transparent;
+}
+
+.table table input {
+    max-width: 40px;
+    padding: 10px 0;
+
+    text-align: center;
+    border: none;
+}
+
+.table .title {
+    font-size: 24px;
+}
+
+.table .title .total {
+    color: var(--color-price);
+}
+
+
+.container .content {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.container .content .title {
+    font-size: 36px;
+    padding-bottom: 50px;
+    /* white-space: nowrap; */
+}
+
+.content .left,
+.content .right {
+    width: 50%;
+}
+
+.content .left input {
+    padding: 15px;
+    border: 1px solid #adbac4;
+    width: 100%;
+}
+
+.container .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+    color: #adbac4;
+}
+
+.container .form .coupon {
+    position: relative;
+    width: 100%;
+}
+
+.container .form .coupon i {
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+}
+
+.container .form .flex-space {
+    gap: 20px;
+}
+
+
+.content .left button {
+    /* width: 40%; */
+    width: 190px;
+    border: 3px solid #00bbd3;
+    font-weight: bold;
+    color: #00bbd3;
+    padding: 15px;
+    background-color: transparent;
+}
+
+.content .right table {
+    text-align: left;
+    border-collapse: collapse;
+
+}
+
+.right table th,
+.right table td {
+    border: 1px solid #dddddd;
+
+}
+
+.content .right td:nth-child(1),
+.content .right th:nth-child(1) {
+    background-color: #eff3f1;
+}
+
+.content td:nth-child(2) {
+    line-height: 30px;
+
+}
+
+.content td:nth-child(2) i {
+    color: #adbac4;
+}
+
+.container .content-items {
+    padding-top: 136px;
+}
+
+.content-items .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    padding-top: 24px;
+}
+
+.content-items .title div {
+    font-size: 36px;
+}
+
+.content-items .price {
+    padding: 20px;
+    color: #00bbd3;
+
+}
+
+.border {
+    width: 50%;
+}
+
+.box .box-child {
+    position: relative;
+}
+
+.box .box-child .new {
+    position: absolute;
+    top: 40%;
+    right: -10px;
+    width: 50px;
+    height: 50px;
+    background-color: #393d50;
+    z-index: 1;
+    color: white;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.box .box-child .sale {
+    position: absolute;
+    top: 25%;
+    right: -15px;
+    background-color: var(--color-price);
+    z-index: 2;
+    color: white;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+
+
+
+.box ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding-top: 60px;
+}
+
+.box ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 15%;
+    /* min-height: 300px; */
+    border: 1px solid #bfc6cb;
+}
+
+.box img {
+    width: 100%;
+    height: 250px;
+}
+
+@media only screen and (max-width: 652px) {
+    .container {
+        width: 90%;
+    }
+
+    .table .quantity {
+        width: 100%;
+    }
+
+    .container .content {
+        flex-direction: column;
+    }
+
+    .content .left,
+    .content .right {
+        width: 100%;
+    }
+
+    .content .left button {
+        width: 100%;
+    }
+
+    .box ul {
+        flex-wrap: wrap;
+    }
+
+    .box ul li {
+        width: 30%;
+    }
+
+    .border {
+        display: none;
+    }
+
+    .box img {
+        height: 150px;
+    }
+
+    .box .box-child .sale {
+        top: 55px;
+    }
+
+    .content-items .title {
+        padding: 10px;
+    }
+
+    .container .content-items {
+        padding-top: 80px;
+    }
+
+    .btn-bottom {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .btn-bottom .left,
+    .btn-bottom .right {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+
+    .header-bottom .top .name {
+        font-size: 40px;
+        white-space: nowrap;
+    }
+
+    .btn-bottom .right button {
+        margin: 0;
+    }
+
+    .btn-bottom .left input {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 653px) and (max-width: 1400px) {
+
+    .table .quantity {
+        width: 100%;
+
+    }
+
+    .btn-bottom .left {
+        width: 60%;
+    }
+
+    .btn-bottom .left input {
+        width: 100%;
+    }
+
+    .btn-bottom .left button {
+        margin-top: 10px;
+        text-align: right;
+    }
+
+    .btn-bottom .right {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .box ul {
+        flex-wrap: wrap;
+    }
+
+    .box ul li {
+        width: 30%;
+    }
+
+}

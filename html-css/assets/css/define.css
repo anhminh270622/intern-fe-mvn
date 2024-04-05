@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+:root {
+    --color-white: #fff;
+    --color-black: #000;
+    --color-price: #00bcd4;
+    --color-youtube: #f44336;
+    --color-border: #dfe5e7;
+    --style-border : 1px solid #dfe5e7;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-space {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-align {
+    display: flex;
+    align-items: center;
+}
