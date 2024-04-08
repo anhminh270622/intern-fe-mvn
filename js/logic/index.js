@@ -93,7 +93,7 @@ function findMediumStudentGood(mediumStudentList) {
     })
     return mediumStudentGood;
 }
-console.log('findMediumStudentGood', findMediumStudentGood(mediumStudent(markList)));
+console.log('findMediumStudentGood', findMediumStudentGood(findMediumStudent(markList)));
 
 //tìm bạn học tốt nhất và kém nhất từng môn
 function findBestAndWorst(students) {
